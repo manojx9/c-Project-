@@ -31,8 +31,8 @@ int main() {
 int mainmenu() {
     system("cls");
     int n;
-    printf("|************* Ristorante ******************|\n");
-    printf("|********** OPTIONS ************************|\n\n");
+    printf("|******************************* Ristorante *********************|\n");
+    printf("|******************************* OPTIONS ************************|\n\n");
     printf("\t\t\t\t1. ADMIN\n");
     printf("\t\t\t\t2. USER\n");
     printf("Enter your choice: ");
@@ -53,7 +53,7 @@ void getPassword(char *password) {
             printf("\b \b");
         } else {
             password[i++] = ch;
-            printf("");
+            printf("*");
         }
     }
 }
